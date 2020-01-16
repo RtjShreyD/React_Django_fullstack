@@ -1,0 +1,3 @@
+Django-Superuser
+    Username: admin
+    Pwd: Admin@123
