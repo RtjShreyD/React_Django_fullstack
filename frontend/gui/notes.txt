@@ -15,3 +15,13 @@ Create frontend application with above package:
 
     create-react-app gui
 
+*********************************************
+
+while development, especially when a new package is installed using npm 
+(ex. npm install antd --save) if error code ELIFECYCLE is recieved, solve it by:
+
+    npm cache clean --force
+    rm -rf node_modules && rm ./package-lock.json && npm install
+    
+    npm start
+
