@@ -23,5 +23,10 @@ while development, especially when a new package is installed using npm
     npm cache clean --force
     rm -rf node_modules && rm ./package-lock.json && npm install
     
-    npm start
+    npm start 
+
+Still if issue persist there is some error with code in App.js probably.
+Here it was solved by changing it to OOPs approach in App.js,
+Later will see how it works with functional programming approach. 
+For a beginner learning React OOPs is better.
 
