@@ -30,3 +30,9 @@ Here it was solved by changing it to OOPs approach in App.js,
 Later will see how it works with functional programming approach. 
 For a beginner learning React OOPs is better.
 
+*********************************************
+
+For grabbing and displaying data from server axios package need to be installed,
+using axios we can make requests to servers
+
+    npm install axios --save
