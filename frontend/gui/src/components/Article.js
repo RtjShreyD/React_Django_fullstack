@@ -45,7 +45,7 @@ const Articles = (props) => {
         >
             <List.Item.Meta
             avatar={<Avatar src={item.avatar} />}
-            title={<a href={item.href}>{item.title}</a>}
+            title={<a href={`/${item.id}`}>{item.title}</a>} //This item.id has to come from backed so make changes in serializers.py
             description={item.description}
             />
             {item.content}
